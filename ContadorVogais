@@ -1,0 +1,12 @@
+print("Contador de Vogais!")
+string = input("Digite um palavra ou frase: ") // Aloca a entrada do usuario na variavel string
+vogais="aeiouAEIOU" // vogais (maiuscula e minuscula)
+
+contador=0
+
+for letras in string:  // laço de repetição que percorre a entrada do usuário
+    if letras in vogais:     >> e identifica as vogais dentro da entrada
+        contador +=1  // conta o numero de vogais
+
+print("O numero de vogais e ",contador)
+
