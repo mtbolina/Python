@@ -1,12 +1,13 @@
-print("Contador de Vogais!")
-string = input("Digite um palavra ou frase: ") // Aloca a entrada do usuario na variavel string
-vogais="aeiouAEIOU" // vogais (maiuscula e minuscula)
+print("Contador de vogais !" )
 
-contador=0
+string=input("Digite uma string: ") // aloca a entrada do usuario em uma variavel
 
-for letras in string:  // laço de repetição que percorre a entrada do usuário
-    if letras in vogais:     >> e identifica as vogais dentro da entrada
-        contador +=1  // conta o numero de vogais
+vogais="AEIOUaeiou"  //identificacao das vogais
 
-print("O numero de vogais e ",contador)
+contador = 0 
 
+for letras in string:       //laco de repeticao que percorre a entrada do usuario e
+    if letras in vogais:     >> verifica quantas vogais existe na entrada
+        contador +=1    // conta o numero de vogais
+
+print(f"O numero de vogais dentro da string  '{string}'  e {contador}")  //imprime o resultado
