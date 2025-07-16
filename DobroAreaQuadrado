@@ -3,4 +3,7 @@ lado2=int(input("Digite o valor do segundo lado: "))
 
 area=lado*lado2
 
+DobroArea=area*2
+
 print("O valor da area do quadrado em questao e :",area)
+print("O valor do dobro da area do quadrado em questao e :",DobroArea)
