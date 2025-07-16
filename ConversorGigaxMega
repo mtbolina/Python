@@ -1,0 +1,5 @@
+giga=int(input("Digite o tamanho do arquivo em Gigabytes: "))
+
+mega=giga*1024
+
+print("O tamanho do arquivo em Megabytes e: ",mega)
