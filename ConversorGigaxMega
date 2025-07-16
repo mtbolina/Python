@@ -1,5 +1,8 @@
-giga=int(input("Digite o tamanho do arquivo em Gigabytes: "))
+def Mega(valor):
+    return valor*1024
 
-mega=giga*1024
+giga=float(input("Digite o tamanho do arquivo em Gigabytes: "))
 
-print("O tamanho do arquivo em Megabytes e: ",mega)
+ConversorMega=Mega(giga)
+
+print(f"O arquivo de {giga} Gigabytes tem o tamanho de {ConversorMega} Megabytes.")
