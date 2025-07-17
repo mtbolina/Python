@@ -4,4 +4,4 @@
 
 Este portfólio reúne alguns dos meus projetos desenvolvidos em Python, com foco em soluções práticas, organização de código e boas práticas de programação. Fique à vontade para explorar e conhecer um pouco mais do meu trabalho!
 
-(Mais códigos na branch "ListaExerciciosPython")
+(Mais códigos na branch "ListaExPythonBR")
