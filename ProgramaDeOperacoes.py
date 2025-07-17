@@ -1,6 +1,6 @@
 prog=int(input("Programa de Operações! \n Digite 1-Para iniciar "))
 
-while prog == 1: // laço de repetição que se inicia ao usuário digitar o número 1
+while prog == 1: # laço de repetição que se inicia ao usuário digitar o número 1
 
  op = int(input("\n Digite: \n 1-Soma \n 2-Subtracao \n 3-Multiplicacao \n 4-Divisao \n"))
 
@@ -30,7 +30,7 @@ while prog == 1: // laço de repetição que se inicia ao usuário digitar o nú
           div=c/d
           print("O resultado da divisao e : ",div)   
 
- prog=int(input("\n Deseja continuar? \n Digite: \n 1-Para Continuar \n 2-Para Sair \n"))  // Faz com que o usuário possa interromper ou continuar o laço de repetição
+ prog=int(input("\n Deseja continuar? \n Digite: \n 1-Para Continuar \n 2-Para Sair \n"))  # Faz com que o usuário possa interromper ou continuar o laço de repetição
 
 print("Fim do Programa.")  
 
